@@ -14,13 +14,5 @@ def prime?(num)
      end
     end
   end
-  #return is_prime
-  
-  if is_prime == true
-    puts "It is prime!"
-  else
-    puts "It is not prime!"
-  end
+  return is_prime
 end
-
-prime?(487)
