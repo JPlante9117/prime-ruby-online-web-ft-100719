@@ -16,3 +16,4 @@ def prime?(num)
   end
   return is_prime
 end
+
