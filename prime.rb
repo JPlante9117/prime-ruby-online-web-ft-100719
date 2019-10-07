@@ -17,4 +17,4 @@ def prime?(num)
   return is_prime
 end
 
-prime?(487)
+return prime?(487)
