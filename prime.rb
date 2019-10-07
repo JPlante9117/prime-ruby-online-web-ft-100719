@@ -8,11 +8,18 @@ def prime?(num)
   elsif num < 0
     return false
   else
-    var = divisor.find do |number|
-     if (num % number == 0 && num != number) || (num == 0 || num == 1)
+    
+    var = divisor.find { |number| num % number == 0 && num != number }
+    if var == nil
+      is_prime = true
+    else
       is_prime = false
-     end
     end
+    # divisor.find do |number|
+    # if (num % number == 0 && num != number) || (num == 0 || num == 1)
+    #   is_prime = false
+    # end
+    # end
   end
   return is_prime
 end
