@@ -8,7 +8,7 @@ def prime?(num)
   elsif num < 0
     return false
   else
-    divisor.each do |number|
+    divisor.find do |number|
      if (num % number == 0 && num != number) || (num == 0 || num == 1)
       is_prime = false
      end
