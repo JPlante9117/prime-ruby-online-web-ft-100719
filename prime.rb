@@ -16,7 +16,6 @@ def prime?(num)
     else
       is_prime = false
     end
-    
   #   divisor.each do |number|
   #   if (num % number == 0 && num != number) || (num == 0 || num == 1)
   #     is_prime = false
