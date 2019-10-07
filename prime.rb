@@ -22,6 +22,6 @@ def prime?(num)
   #     is_prime = false
   #   end
   #   end
-  # end
-  # return is_prime
+  end
+  return is_prime
 end
