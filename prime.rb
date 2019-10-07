@@ -2,7 +2,7 @@
 
 def prime?(num)
   is_prime = true
-  divisor = (2..1000).to_a
+  divisor = (2..10000000).to_a
   if num == 2 || num == 3 || num == 5
     is_prime = true
   elsif num < 0
