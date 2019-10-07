@@ -2,10 +2,11 @@
 
 def prime?(num)
   if num == 2 || num == 3 || num == 5
-    return true
+    is_prime? = true
   elsif num != 0 && num != 1 && num % 2 != 0 && num % 3 != 0 && num % 5 != 0 && num > 0
-    return true
+    is_prime? = true
   else
-    return false
+    is_prime? = false
   end
+  return is_prime?
 end
