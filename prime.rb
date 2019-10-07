@@ -15,6 +15,12 @@ def prime?(num)
     end
   end
   return is_prime
+  
+  if is_prime == true
+    puts "It is prime!"
+  else
+    puts "It is not prime!"
+  end
 end
 
 prime?(487)
