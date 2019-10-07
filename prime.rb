@@ -10,18 +10,18 @@ def prime?(num)
   elsif num == 0 || num == 1 
     is_prime = false
   else
-    
-    # var = divisor.find { |number| num % number == 0 && num != number }
-    # if var == nil
-    #   is_prime = true
-    # else
-    #   is_prime = false
-    # end
-    divisor.each do |number|
-    if (num % number == 0 && num != number) || (num == 0 || num == 1)
+    var = divisor.find { |number| num % number == 0 && num != number }
+    if var == nil
+      is_prime = true
+    else
       is_prime = false
     end
-    end
-  end
-  return is_prime
+    
+  #   divisor.each do |number|
+  #   if (num % number == 0 && num != number) || (num == 0 || num == 1)
+  #     is_prime = false
+  #   end
+  #   end
+  # end
+  # return is_prime
 end
