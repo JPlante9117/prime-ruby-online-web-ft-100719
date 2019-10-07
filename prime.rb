@@ -6,7 +6,9 @@ def prime?(num)
   if num == 2 || num == 3 || num == 5
     is_prime = true
   elsif num < 0
-    return false
+    is_prime = false
+  elsif num == 0 || num == 1 
+    is_prime = false
   else
     
     var = divisor.find { |number| num % number == 0 && num != number }
