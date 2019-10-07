@@ -23,4 +23,4 @@ def prime?(num)
   end
 end
 
-prime?(6)
+prime?(487)
