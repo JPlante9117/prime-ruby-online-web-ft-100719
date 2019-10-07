@@ -11,3 +11,5 @@ def prime?(num)
   end
   return is_prime
 end
+
+divisor = (2..1000).to_a
