@@ -7,7 +7,7 @@ def prime?(num)
     is_prime = true
   else
     divisor.each do |number|
-     if num % number == 0 && num != number 
+     if num % number == 0 && num != number && num > 0
       is_prime = false
      end
     end
